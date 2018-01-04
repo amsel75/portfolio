@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+header{
+	height:90px;
+}
+
+#contents,#concept,#item{
+	padding-top:90px;
+	margin-top:-90px;
+}
+
+
+body{
+	font-size: 20px;
+}
+
+nav ul li{
+    width: 150px;
+	padding-top:30px;
+    padding-left: 10px;
+    padding-right: 10px;
+	font-size:30px;
+}
+
+.top{
+	position:relative;
+	height:100vh;
+	background-image:url(../images/TOP_shell3.jpg);
+	background-position:center top;
+	background-size:cover;
+}
+
+.logo{
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	margin:auto auto;
+	width:550px;
+	height:150px;
+	font-size: 70px;
+}
+
+.itoshima{
+	position:absolute;
+	bottom:10px;
+	left:20px;
+}
+
+.itoshima p{
+	font-size:24px;
+	text-align:left;
+}
+
+h2{
+	font-size:36px;
+	padding-top:40px;
+	padding-bottom:20px;
+}
+
+.concept{
+	margin-top:50px;
+}
+
+.concept p{
+	line-height:2em;
+	padding-bottom:25px;
+}
+
+figcaption{
+	padding-bottom:30px;
+}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+@import url(tab.css) screen and (max-width: 799px);
+
+@import url(pc.css) screen and (min-width:800px);
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{ 
+	font-family:'Fredoka One', cursive;
+    color:#633;
+}
+
+.main{
+    background-image:url(../images/top.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    padding-top:50%;
+    position:relative;
+    left:0;
+    top:0;
+}
+
+.main .title{
+    color:#fff;
+    position:absolute;
+    top:30%;
+    width:100%;
+    text-align:center;
+}
+
+nav{
+    list-style-type:none;
+    padding-top:10px;
+}
+
+nav ul li{
+    width:20%;
+    margin-right:3%;
+    display:inline-block;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+    color:#963;
+}
+
+article{
+    text-align:center;
+    margin:3%;
+}
+
+.g{
+   font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+}
+
+h2{
+    padding-top:3%;
+    font-weight:bold;
+}
+
+.pink{
+    background-color:#fcc;
+    border-radius:15px;
+    width:90%;
+    padding:2%;
+    font-weight:bold;
+}
+
+.mint{
+    background-color:#cff;
+    border-radius:15px;
+    width:90%;
+    font-weight:bold;
+}
+
+#pro .pro{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+    text-align:left;
+    line-height: 2em;
+}
+
+h2{
+    padding-top:4%;
+}
+
+h3{
+    border-bottom:1px #633 dotted;
+    padding-top:2%;
+}
+
+.name{
+    font-weight:bold;
+    font-size:30px;
+}
+
+#pro p{
+    padding-bottom:15px;
+}

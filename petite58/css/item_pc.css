@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+#shell{
+	background-image:url(../images/back_shell_01.jpg);
+}
+
+#button{
+	background-image:url(../images/back_button_01.jpg);
+}
+
+#sea{
+	background-image:url(../images/back_Sea_01.jpg);
+}
+
+body{
+	background-size:cover;
+	background-attachment:fixed;
+	font-size:14px;
+}
+
+nav{
+	float:left;
+	width:18%;
+	background-color:rgba(153,153,204,0.7);
+	text-align:center;
+	height:100%;
+}
+
+nav ul li{
+	font-size:20px;
+}
+
+nav ul li a{
+	margin-top:100px;
+	margin-bottom:150px;
+}
+
+h1{
+	padding-top:50px;
+	font-size:28px;
+}
+	
+article{
+	float:right;
+	width:80%;
+	padding-top:50px;
+	position:relative;
+}
+
+h2{
+	font-size:28px;
+}
+
+section{
+	background-color:#FFFFFF;
+	width:470px;
+	padding:10px;
+	overflow:hidden;
+}
+
+.sec1{
+	position:absolute;
+	top:110px;
+}
+
+.sec2{
+	position:absolute;
+	top:110px;
+	left:510px;
+}
+
+.sec3{
+	position:absolute;
+	top:330px;
+}
+
+.sec4{
+	position:absolute;
+	top:330px;
+	left:510px;
+}
+
+h3{
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+section img{
+	width:180px;
+	height:180px;
+	float:left;
+	padding-right:10px;
+}
+
+footer{
+	width:100%;
+	line-height:1.5em;
+	clear:both;
+}

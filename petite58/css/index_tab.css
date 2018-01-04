@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*タブレットサイズのスタイル*/
+
+body{
+	background-image:url(../images/back_button_01.jpg);
+    background-size: cover;
+	background-attachment:fixed;
+}
+
+header{
+	height:8%;
+}
+
+#contents,#concept,#item{
+	padding-top:12%;
+	margin-top:-8%;
+}
+
+nav ul li{
+    width:15%;
+	padding-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+
+h1{
+	padding-top:18%;
+	padding-bottom:10%;
+    font-size:200%;
+}
+
+.top p{
+	line-height:1.5em;
+}
+
+h2{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+.concept p{
+	line-height:1.5em;
+	padding-bottom:3%;
+}
+
+figcaption{
+	padding-bottom:5%;
+}

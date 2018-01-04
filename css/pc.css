@@ -1,0 +1,99 @@
+.title h1{
+    font-size:46px;
+}
+
+.title p{
+    font-size:75px;
+    line-height:4em;
+}
+
+.pro,.ill,.web{
+    padding:30px;
+}
+
+.pro a{
+    background-image:url(../images/lotus.jpg);
+    width:260px;
+    height:150px;
+    display:block;
+    text-indent:-9999px;
+}
+
+.pro a:hover{
+    background-image:url(../images/lotus2.jpg);
+}
+
+.ill a{
+    background-image:url(../images/Nemophila.jpg);
+    width:260px;
+    height:150px;
+    display:block;
+    text-indent:-9999px;
+}
+
+.ill a:hover{
+    background-image:url(../images/Nemophila2.jpg);
+}
+
+.web a{
+    background-image:url(../images/ginkgo.jpg);
+    width:260px;
+    height: 150px;
+    display:block;
+    text-indent:-9999px;
+}
+
+.web a:hover{
+    background-image:url(../images/ginkgo2.jpg);
+}
+
+.menu{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.menu div{
+    display:inline-block;
+}
+
+.cover{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav ul li{
+    font-size:30px;
+}
+
+.title2{
+    line-height:2em
+}
+
+.title2 p{
+    font-size:40px;
+}
+
+.pink{
+    overflow:hidden;
+    margin:1% auto 3%;
+}
+
+figure img{
+    float:left;
+    padding-left:10%
+}
+
+figcaption{
+    padding-top:2%;
+    padding-left:50%;
+    text-align:left;
+}
+
+.mint{
+    margin:3% auto 3%;
+    padding-bottom:3%;
+    font-weight:bold;
+}
